@@ -1,133 +1,74 @@
 @media (max-width:720px){
-    html{
-    overflow-x: hidden;
+   	html {
+		overflow-x: hidden;
+	}
+
+	body {
+		background-color: #E4BE9E;
+	}
+
+	h1 {
+position: absolute;
+width: 200px;
+height: 253px;
+left:-40px;
+top: 200px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 88px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+	}
+.backlet{
+	position: relative;
+	font-family: Montserrat;
+	font-weight:bold;
+	right:20px;
+	bottom: 65px;
+	font-size:50px;
+	color: #AF5D63;
 }
-
-body {
-    background-color: #7F95D1;
+.top{
+	width: 190px;
+	height: 230px;
+	position: absolute;
+	bottom: 583px;
+	left: 222px;
 }
-
-    h1 {
-        position: absolute;
-        width: 300px;
-        height: 0px;
-        left: 22%;
-        top: 8%;
-        font-family: 'Zen Loop', cursive;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 48px;
-        line-height: 0px;
-        /* or 0% */
-
-        display: flex;
-        align-items: flex-end;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    h2 {
-        position: absolute;
-        width: 300px;
-        height: 13px;
-        left: 16%;
-        top: 100px;
-        font-family: 'Lato', sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 22px;
-        line-height: 13px;
-        /* or 72% */
-
-        display: flex;
-        align-items: flex-end;
-        text-align: center;
-        letter-spacing: 0.066px;
-        color: #FFFFFF;
-    }
-
-    .bwid {
-        position: absolute;
-        width: 260px;
-        height: 260px;
-        top: 220px;
-        left: 15px;
-    }
-
-    .bvideo {
-        position: absolute;
-        width: 223px;
-        height: 223px;
-        top: 238px;
-        left: 33px;
-    }
-
-    .wwid {
-        position: absolute;
-        width: 260px;
-        height: 260px;
-        top: 620px;
-        left: 100px;
-    }
-
-    .wvideo {
-        position: absolute;
-        width: 223px;
-        height: 223px;
-        top: 638px;
-        left: 118px;
-    }
-
-    .bwid2 {
-        position: absolute;
-        width: 260px;
-        height: 260px;
-        top: 1020px;
-        left: 15px;
-    }
-
-    .bvideo2 {
-        position: absolute;
-        width: 223px;
-        height: 223px;
-        top: 1038px;
-        left: 33px;
-    }
-
-    .wwid2 {
-        position: absolute;
-        width: 260px;
-        height: 260px;
-        top: 1420px;
-        left: 100px;
-    }
-
-    .wvideo2 {
-        position: absolute;
-        width: 223px;
-        height: 223px;
-        top: 1438px;
-        left: 118px;
-    }
-
-   .footer {
-        position: absolute;
-        width: 377px;
-        height: 5%;
-        right: 10px;
-        left: 10px;
-        top: 1800px;
-    }
-
-
-
-
-
-
-
-
-
-
+ .botleft{
+	width: 210px;
+	height:320px;
+	position: absolute;
+	top: 743px;
+	right: 170px;
+	 
+	 
+ }
+ .botright{
+	width: 205px;
+	height:230px;
+	position: absolute;
+	top: 500px;
+	left: 207px;
+	 
+	 
+ }
+ .botquote{
+	width: 370px;
+	position: absolute;
+	top: 1100px;
+	left: 10px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	padding:5px;
+	
+ }
 
 
 
